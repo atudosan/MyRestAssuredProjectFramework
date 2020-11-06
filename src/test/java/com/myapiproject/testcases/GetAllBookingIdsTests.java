@@ -3,6 +3,7 @@ package com.myapiproject.testcases;
 import java.util.List;
 
 import org.testng.Assert;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
@@ -18,13 +19,11 @@ public class GetAllBookingIdsTests extends TestBase {
 	@BeforeClass
 	public void getAllBookingIds() {
 
-		// logger.info("************** Started GetAllBookingIdsTests **************");
+		logger.info("************* Started GetAllBookingIds Tests **************");
 
 		// Get Response
 		response = httpRequest.request(Method.GET, "/booking");
-		response.print();
-		System.out.println(response.getHeaders());
-		System.out.println(response.getStatusCode());
+		response.print();		
 	}
 
 	@Test
@@ -58,5 +57,15 @@ public class GetAllBookingIdsTests extends TestBase {
 		String actualContentType = response.getHeader("Content-Type");
 		Assert.assertEquals(actualContentType, "application/json; charset=utf-8", "Content Type Mismatch");
 	}
+	
+	@AfterClass
+	public void tearDown() {
+
+		logger.info("************** Finished GetAllBookingIds Tests **************");
+		
+	}
+
+	
+	
 
 }
