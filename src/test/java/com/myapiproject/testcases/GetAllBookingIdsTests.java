@@ -52,10 +52,23 @@ public class GetAllBookingIdsTests extends TestBase {
 	
 	@Test
 	public void checkHeaderServerInfo() {
+		logger.info("************** Checking Headers  **************");
 		String actualServerName = response.getHeader("Server");
 		Assert.assertEquals(actualServerName, "Cowboy", "Server Name Mismatch");
 		String actualContentType = response.getHeader("Content-Type");
 		Assert.assertEquals(actualContentType, "application/json; charset=utf-8", "Content Type Mismatch");
+	}
+	
+	@Test
+	public void checkingResponseTime() {
+		logger.info("************** Checking Response Time  **************");
+		long actualResponseTime = response.getTime();
+		if(actualResponseTime>3000) {
+			logger.warn("Respose Time is "+ actualResponseTime);
+		}
+		else {logger.info("Response time = "+ actualResponseTime);}
+		Assert.assertTrue(actualResponseTime<=3000, "Response time is greater then 3 seconds");
+		
 	}
 	
 	@AfterClass

@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\19163\AppData\Local\Temp\testng-eclipse-1639644551\testng-customsuite.xml</span>
+                    <span>C:\Users\19163\AppData\Local\Temp\testng-eclipse-1391615019\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods,   4 passed</span>
+                    <span class="method-stats">5 methods,   5 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -118,6 +118,11 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Default_suite" title="com.myapiproject.testcases.GetAllBookingIdsTests" class="method navigator-link" hash-for-method="checkStatusCode">checkStatusCode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.myapiproject.testcases.GetAllBookingIdsTests" class="method navigator-link" hash-for-method="checkingResponseTime">checkingResponseTime</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -166,12 +171,19 @@
                   <span class="method-name">checkStatusCode</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkingResponseTime">
+                  </a> <!-- checkingResponseTime -->
+                  <span class="method-name">checkingResponseTime</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Default_suite-class-passed -->
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\19163\AppData\Local\Temp\testng-eclipse-1639644551\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\19163\AppData\Local\Temp\testng-eclipse-1391615019\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -220,15 +232,15 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(4);
+data.addRows(5);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'checkListOfBookindIDs')
 data.setCell(0, 2, 'com.myapiproject.testcases.GetAllBookingIdsTests')
-data.setCell(0, 3, 659);
+data.setCell(0, 3, 644);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'checkHeaderServerInfo')
 data.setCell(1, 2, 'com.myapiproject.testcases.GetAllBookingIdsTests')
-data.setCell(1, 3, 8);
+data.setCell(1, 3, 5);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'checkResponseBody')
 data.setCell(2, 2, 'com.myapiproject.testcases.GetAllBookingIdsTests')
@@ -237,11 +249,15 @@ data.setCell(3, 0, 3)
 data.setCell(3, 1, 'checkStatusCode')
 data.setCell(3, 2, 'com.myapiproject.testcases.GetAllBookingIdsTests')
 data.setCell(3, 3, 2);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'checkingResponseTime')
+data.setCell(4, 2, 'com.myapiproject.testcases.GetAllBookingIdsTests')
+data.setCell(4, 3, 2);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 672 ms</span>
+              <span class="suite-total-time">Total running time: 656 ms</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -274,28 +290,36 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="configuration-class before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">78 ms</span>
+                <span class="method-start">81 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-class before">
                 <span class="method-name">getAllBookingIds</span>
-                <span class="method-start">1038 ms</span>
+                <span class="method-start">1054 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">checkHeaderServerInfo</span>
-                <span class="method-start">2827 ms</span>
+                <span class="method-start">2742 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">checkListOfBookindIDs</span>
-                <span class="method-start">2837 ms</span>
+                <span class="method-start">2751 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">checkResponseBody</span>
-                <span class="method-start">3497 ms</span>
+                <span class="method-start">3396 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">checkStatusCode</span>
-                <span class="method-start">3500 ms</span>
+                <span class="method-start">3400 ms</span>
               </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkingResponseTime</span>
+                <span class="method-start">3404 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">3408 ms</span>
+              </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

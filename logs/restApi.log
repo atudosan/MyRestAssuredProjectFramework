@@ -31,3 +31,18 @@
 ************** Checking Booking ID's List  **************
 ************** Checking Response Body **************
 ************** Checking Status Code  **************
+************* Started GetAllBookingIds Tests **************
+************** Checking Headers  **************
+************** Checking Booking ID's List  **************
+************** Checking Response Body **************
+************** Checking Status Code  **************
+************** Checking Response Time  **************
+************** Finished GetAllBookingIds Tests **************
+************* Started GetAllBookingIds Tests **************
+************** Checking Headers  **************
+************** Checking Booking ID's List  **************
+************** Checking Response Body **************
+************** Checking Status Code  **************
+************** Checking Response Time  **************
+Response time = 1368
+************** Finished GetAllBookingIds Tests **************
