@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\19163\AppData\Local\Temp\testng-eclipse-714272541\testng-customsuite.xml</span>
+                    <span>C:\Users\19163\AppData\Local\Temp\testng-eclipse--1127929263\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,   3 passed</span>
+                    <span class="method-stats">4 methods,   4 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -100,6 +100,11 @@
                       <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
                     </span>
                     <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.myapiproject.testcases.GetAllBookingIdsTests" class="method navigator-link" hash-for-method="checkHeaderServerInfo">checkHeaderServerInfo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Default_suite" title="com.myapiproject.testcases.GetAllBookingIdsTests" class="method navigator-link" hash-for-method="checkListOfBookindIDs">checkListOfBookindIDs</a> <!-- method navigator-link -->
@@ -135,6 +140,13 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
+                  <a name="checkHeaderServerInfo">
+                  </a> <!-- checkHeaderServerInfo -->
+                  <span class="method-name">checkHeaderServerInfo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="checkListOfBookindIDs">
                   </a> <!-- checkListOfBookindIDs -->
                   <span class="method-name">checkListOfBookindIDs</span>
@@ -159,7 +171,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\19163\AppData\Local\Temp\testng-eclipse-714272541\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\19163\AppData\Local\Temp\testng-eclipse--1127929263\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -208,24 +220,28 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(4);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'checkListOfBookindIDs')
 data.setCell(0, 2, 'com.myapiproject.testcases.GetAllBookingIdsTests')
-data.setCell(0, 3, 645);
+data.setCell(0, 3, 658);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'checkStatusCode')
+data.setCell(1, 1, 'checkHeaderServerInfo')
 data.setCell(1, 2, 'com.myapiproject.testcases.GetAllBookingIdsTests')
-data.setCell(1, 3, 2);
+data.setCell(1, 3, 8);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'checkResponseBody')
 data.setCell(2, 2, 'com.myapiproject.testcases.GetAllBookingIdsTests')
-data.setCell(2, 3, 1);
+data.setCell(2, 3, 2);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'checkStatusCode')
+data.setCell(3, 2, 'com.myapiproject.testcases.GetAllBookingIdsTests')
+data.setCell(3, 3, 1);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 648 ms</span>
+              <span class="suite-total-time">Total running time: 669 ms</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -258,23 +274,27 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="configuration-class before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">82 ms</span>
+                <span class="method-start">86 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-class before">
                 <span class="method-name">getAllBookingIds</span>
-                <span class="method-start">999 ms</span>
+                <span class="method-start">1055 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
+                <span class="method-name">checkHeaderServerInfo</span>
+                <span class="method-start">2859 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
                 <span class="method-name">checkListOfBookindIDs</span>
-                <span class="method-start">2598 ms</span>
+                <span class="method-start">2870 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">checkResponseBody</span>
-                <span class="method-start">3248 ms</span>
+                <span class="method-start">3530 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">checkStatusCode</span>
-                <span class="method-start">3251 ms</span>
+                <span class="method-start">3534 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

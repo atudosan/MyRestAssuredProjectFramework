@@ -23,6 +23,7 @@ public class GetAllBookingIdsTests extends TestBase {
 		// Get Response
 		response = httpRequest.request(Method.GET, "/booking");
 		response.print();
+		System.out.println(response.getHeaders());
 		System.out.println(response.getStatusCode());
 	}
 
@@ -48,6 +49,14 @@ public class GetAllBookingIdsTests extends TestBase {
 		int actualStatusCode = response.getStatusCode();
 		System.out.println("Satus Code ---> " + actualStatusCode);
 		Assert.assertEquals(actualStatusCode, 200, "Status code is wrong");
+	}
+	
+	@Test
+	public void checkHeaderServerInfo() {
+		String actualServerName = response.getHeader("Server");
+		Assert.assertEquals(actualServerName, "Cowboy", "Server Name Mismatch");
+		String actualContentType = response.getHeader("Content-Type");
+		Assert.assertEquals(actualContentType, "application/json; charset=utf-8", "Content Type Mismatch");
 	}
 
 }
