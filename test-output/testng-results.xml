@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-11-06T11:56:43 PST" name="Default suite" finished-at="2020-11-06T11:56:46 PST" duration-ms="3274">
+    <groups>
+    </groups>
+    <test started-at="2020-11-06T11:56:43 PST" name="Default test" finished-at="2020-11-06T11:56:46 PST" duration-ms="3274">
+      <class name="com.myapiproject.testcases.GetAllBookingIdsTests">
+        <test-method is-config="true" signature="logSetUp()[pri:0, instance:com.myapiproject.testcases.GetAllBookingIdsTests@186f8716]" started-at="2020-11-06T11:56:43 PST" name="logSetUp" finished-at="2020-11-06T11:56:43 PST" duration-ms="82" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logSetUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.myapiproject.testcases.GetAllBookingIdsTests@186f8716]" started-at="2020-11-06T11:56:43 PST" name="setUp" finished-at="2020-11-06T11:56:44 PST" duration-ms="917" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="getAllBookingIds()[pri:0, instance:com.myapiproject.testcases.GetAllBookingIdsTests@186f8716]" started-at="2020-11-06T11:56:44 PST" name="getAllBookingIds" finished-at="2020-11-06T11:56:46 PST" duration-ms="1587" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllBookingIds -->
+        <test-method signature="checkListOfBookindIDs()[pri:0, instance:com.myapiproject.testcases.GetAllBookingIdsTests@186f8716]" started-at="2020-11-06T11:56:46 PST" name="checkListOfBookindIDs" finished-at="2020-11-06T11:56:46 PST" duration-ms="645" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkListOfBookindIDs -->
+        <test-method signature="checkResponseBody()[pri:0, instance:com.myapiproject.testcases.GetAllBookingIdsTests@186f8716]" started-at="2020-11-06T11:56:46 PST" name="checkResponseBody" finished-at="2020-11-06T11:56:46 PST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseBody -->
+        <test-method signature="checkStatusCode()[pri:0, instance:com.myapiproject.testcases.GetAllBookingIdsTests@186f8716]" started-at="2020-11-06T11:56:46 PST" name="checkStatusCode" finished-at="2020-11-06T11:56:46 PST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+      </class> <!-- com.myapiproject.testcases.GetAllBookingIdsTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
