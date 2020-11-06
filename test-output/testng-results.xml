@@ -1,49 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-11-06T12:38:46 PST" name="Default suite" finished-at="2020-11-06T12:38:50 PST" duration-ms="3427">
+  <suite started-at="2020-11-06T14:56:09 PST" name="Default suite" finished-at="2020-11-06T14:56:12 PST" duration-ms="3404">
     <groups>
     </groups>
-    <test started-at="2020-11-06T12:38:46 PST" name="Default test" finished-at="2020-11-06T12:38:50 PST" duration-ms="3427">
-      <class name="com.myapiproject.testcases.GetAllBookingIdsTests">
-        <test-method is-config="true" signature="logSetUp()[pri:0, instance:com.myapiproject.testcases.GetAllBookingIdsTests@757acd7b]" started-at="2020-11-06T12:38:46 PST" name="logSetUp" finished-at="2020-11-06T12:38:46 PST" duration-ms="81" status="PASS">
+    <test started-at="2020-11-06T14:56:09 PST" name="Default test" finished-at="2020-11-06T14:56:12 PST" duration-ms="3404">
+      <class name="com.myapiproject.testcases.GetSingleBookingRecord">
+        <test-method is-config="true" signature="logSetUp()[pri:0, instance:com.myapiproject.testcases.GetSingleBookingRecord@69fb6037]" started-at="2020-11-06T14:56:09 PST" name="logSetUp" finished-at="2020-11-06T14:56:09 PST" duration-ms="76" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logSetUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.myapiproject.testcases.GetAllBookingIdsTests@757acd7b]" started-at="2020-11-06T12:38:46 PST" name="setUp" finished-at="2020-11-06T12:38:47 PST" duration-ms="973" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.myapiproject.testcases.GetSingleBookingRecord@69fb6037]" started-at="2020-11-06T14:56:09 PST" name="setUp" finished-at="2020-11-06T14:56:09 PST" duration-ms="804" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="getAllBookingIds()[pri:0, instance:com.myapiproject.testcases.GetAllBookingIdsTests@757acd7b]" started-at="2020-11-06T12:38:47 PST" name="getAllBookingIds" finished-at="2020-11-06T12:38:49 PST" duration-ms="1678" status="PASS">
+        <test-method is-config="true" signature="getBookingData()[pri:0, instance:com.myapiproject.testcases.GetSingleBookingRecord@69fb6037]" started-at="2020-11-06T14:56:09 PST" name="getBookingData" finished-at="2020-11-06T14:56:12 PST" duration-ms="2389" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getAllBookingIds -->
-        <test-method signature="checkHeaderServerInfo()[pri:0, instance:com.myapiproject.testcases.GetAllBookingIdsTests@757acd7b]" started-at="2020-11-06T12:38:49 PST" name="checkHeaderServerInfo" finished-at="2020-11-06T12:38:49 PST" duration-ms="5" status="PASS">
+        </test-method> <!-- getBookingData -->
+        <test-method signature="checkHeaderServerInfo()[pri:0, instance:com.myapiproject.testcases.GetSingleBookingRecord@69fb6037]" started-at="2020-11-06T14:56:12 PST" name="checkHeaderServerInfo" finished-at="2020-11-06T14:56:12 PST" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkHeaderServerInfo -->
-        <test-method signature="checkListOfBookindIDs()[pri:0, instance:com.myapiproject.testcases.GetAllBookingIdsTests@757acd7b]" started-at="2020-11-06T12:38:49 PST" name="checkListOfBookindIDs" finished-at="2020-11-06T12:38:50 PST" duration-ms="644" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkListOfBookindIDs -->
-        <test-method signature="checkResponseBody()[pri:0, instance:com.myapiproject.testcases.GetAllBookingIdsTests@757acd7b]" started-at="2020-11-06T12:38:50 PST" name="checkResponseBody" finished-at="2020-11-06T12:38:50 PST" duration-ms="3" status="PASS">
+        <test-method signature="checkResponseBody()[pri:0, instance:com.myapiproject.testcases.GetSingleBookingRecord@69fb6037]" started-at="2020-11-06T14:56:12 PST" name="checkResponseBody" finished-at="2020-11-06T14:56:12 PST" duration-ms="73" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkResponseBody -->
-        <test-method signature="checkStatusCode()[pri:0, instance:com.myapiproject.testcases.GetAllBookingIdsTests@757acd7b]" started-at="2020-11-06T12:38:50 PST" name="checkStatusCode" finished-at="2020-11-06T12:38:50 PST" duration-ms="2" status="PASS">
+        <test-method signature="checkStatusCode()[pri:0, instance:com.myapiproject.testcases.GetSingleBookingRecord@69fb6037]" started-at="2020-11-06T14:56:12 PST" name="checkStatusCode" finished-at="2020-11-06T14:56:12 PST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkStatusCode -->
-        <test-method signature="checkingResponseTime()[pri:0, instance:com.myapiproject.testcases.GetAllBookingIdsTests@757acd7b]" started-at="2020-11-06T12:38:50 PST" name="checkingResponseTime" finished-at="2020-11-06T12:38:50 PST" duration-ms="2" status="PASS">
+        <test-method signature="checkingResponseTime()[pri:0, instance:com.myapiproject.testcases.GetSingleBookingRecord@69fb6037]" started-at="2020-11-06T14:56:12 PST" name="checkingResponseTime" finished-at="2020-11-06T14:56:12 PST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkingResponseTime -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.myapiproject.testcases.GetAllBookingIdsTests@757acd7b]" started-at="2020-11-06T12:38:50 PST" name="tearDown" finished-at="2020-11-06T12:38:50 PST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.myapiproject.testcases.GetSingleBookingRecord@69fb6037]" started-at="2020-11-06T14:56:12 PST" name="tearDown" finished-at="2020-11-06T14:56:12 PST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.myapiproject.testcases.GetAllBookingIdsTests -->
+      </class> <!-- com.myapiproject.testcases.GetSingleBookingRecord -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -46,3 +46,67 @@
 ************** Checking Response Time  **************
 Response time = 1368
 ************** Finished GetAllBookingIds Tests **************
+************* Started GetSingleBookingRecord Tests **************
+************* Started GetSingleBookingRecord Tests **************
+************* Started GetSingleBookingRecord Tests **************
+************* Started GetSingleBookingRecord Tests **************
+************* Started GetSingleBookingRecord Tests **************
+************* Started GetSingleBookingRecord Tests **************
+************* Started GetSingleBookingRecord Tests **************
+we've created a working booking for this test
+exctracting id from newly created booking
+setting path parameter
+************* Started GetSingleBookingRecord Tests **************
+we've created a working booking for this test
+exctracting id from newly created booking
+setting path parameter
+************* Started GetSingleBookingRecord Tests **************
+we've created a working booking for this test
+exctracting id from newly created booking
+setting path parameter
+************* Started GetSingleBookingRecord Tests **************
+we've created a working booking for this test
+exctracting id from newly created booking
+setting path parameter
+************* Started GetSingleBookingRecord Tests **************
+we've created a working booking for this test
+exctracting id from newly created booking
+setting path parameter
+************* Started GetSingleBookingRecord Tests **************
+we've created a working booking for this test
+exctracting id from newly created booking
+setting path parameter
+************* Started GetSingleBookingRecord Tests **************
+we've created a working booking for this test
+exctracting id from newly created booking
+setting path parameter
+************* Started GetSingleBookingRecord Tests **************
+we've created a working booking for this test
+exctracting id from newly created booking
+setting path parameter
+sending our get request
+************** Checking Status Code  **************
+************* Started GetSingleBookingRecord Tests **************
+we've created a working booking for this test
+exctracting id from newly created booking
+setting path parameter
+************* Started GetSingleBookingRecord Tests **************
+we've created a working booking for this test
+exctracting id from newly created booking
+setting path parameter
+sending our get request
+************** Checking Status Code  **************
+************* Started GetSingleBookingRecord Tests **************
+we've created a working booking for this test
+exctracting id from newly created booking
+sending our get request
+************** Checking Status Code  **************
+************* Started GetSingleBookingRecord Tests **************
+we've created a working booking for this test
+exctracting id from newly created booking
+sending our get request
+************** Checking Headers  **************
+************** Checking Status Code  **************
+************** Checking Response Time  **************
+Response time = 456
+************** Finished GetAllBookingIds Tests **************

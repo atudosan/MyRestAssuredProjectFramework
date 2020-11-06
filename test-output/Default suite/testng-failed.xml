@@ -3,14 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.myapiproject.testcases.GetAllBookingIdsTests">
+      <class name="com.myapiproject.testcases.GetSingleBookingRecord">
         <methods>
-          <include name="checkResponseBody"/>
-          <include name="getAllBookingIds"/>
           <include name="logSetUp"/>
+          <include name="checkResponseBody"/>
           <include name="setUp"/>
+          <include name="getBookingData"/>
         </methods>
-      </class> <!-- com.myapiproject.testcases.GetAllBookingIdsTests -->
+      </class> <!-- com.myapiproject.testcases.GetSingleBookingRecord -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

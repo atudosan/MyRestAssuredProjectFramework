@@ -3,11 +3,13 @@ package com.myapiproject.base;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
+import org.json.JSONObject;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 
 import io.restassured.RestAssured;
 import io.restassured.builder.RequestSpecBuilder;
+import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 
@@ -15,7 +17,7 @@ public class TestBase {
 	
 	protected static RequestSpecification httpRequest;
 	protected RequestSpecification uri;
-	protected CreateWorkingBookingForUs workingBooking;
+	protected Response response;
 	
 	public Logger logger;
 	
@@ -34,8 +36,30 @@ public class TestBase {
 		httpRequest = RestAssured.given(uri);
 		}
 	
-	public void createWorkingBookingForUs() {
-		workingBooking.createBooking();		
+	
+	
+	protected Response createBooking() {
+		JSONObject body = new JSONObject();
+		body.put("firstname", "Alexandru");
+		body.put("lastname", "Tudosan");
+		body.put("totalprice", 199);
+		body.put("depositpaid", true);
+
+		
+		JSONObject bookingdates = new JSONObject();
+		bookingdates.put("checkin", "2020-12-01");
+		bookingdates.put("checkout", "2020-12-02");
+
+		body.put("bookingdates", bookingdates);
+		body.put("additionalneeds", "baby crib");
+
+		// Get response of Post request
+		Response response = RestAssured.given(uri).contentType(ContentType.JSON).body(body.toString())
+				.post("/booking");
+		return response;
 	}
+
+	
+	
 
 }
