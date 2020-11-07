@@ -1,45 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-11-07T09:23:12 PST" name="Default suite" finished-at="2020-11-07T09:23:15 PST" duration-ms="2852">
+  <suite started-at="2020-11-07T12:11:13 PST" name="Default suite" finished-at="2020-11-07T12:11:17 PST" duration-ms="4277">
     <groups>
     </groups>
-    <test started-at="2020-11-07T09:23:12 PST" name="Default test" finished-at="2020-11-07T09:23:15 PST" duration-ms="2852">
-      <class name="com.myapiproject.testcases.GetSingleBookingRecordXML">
-        <test-method is-config="true" signature="logSetUp()[pri:0, instance:com.myapiproject.testcases.GetSingleBookingRecordXML@b5cc23a]" started-at="2020-11-07T09:23:12 PST" name="logSetUp" finished-at="2020-11-07T09:23:12 PST" duration-ms="43" status="PASS">
+    <test started-at="2020-11-07T12:11:13 PST" name="Default test" finished-at="2020-11-07T12:11:17 PST" duration-ms="4277">
+      <class name="com.myapiproject.testcases.DeleteParticularBookingTest">
+        <test-method is-config="true" signature="logSetUp()[pri:0, instance:com.myapiproject.testcases.DeleteParticularBookingTest@4152d38d]" started-at="2020-11-07T12:11:13 PST" name="logSetUp" finished-at="2020-11-07T12:11:13 PST" duration-ms="54" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logSetUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.myapiproject.testcases.GetSingleBookingRecordXML@b5cc23a]" started-at="2020-11-07T09:23:12 PST" name="setUp" finished-at="2020-11-07T09:23:12 PST" duration-ms="138" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.myapiproject.testcases.DeleteParticularBookingTest@4152d38d]" started-at="2020-11-07T12:11:13 PST" name="setUp" finished-at="2020-11-07T12:11:13 PST" duration-ms="127" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="getBookingData()[pri:0, instance:com.myapiproject.testcases.GetSingleBookingRecordXML@b5cc23a]" started-at="2020-11-07T09:23:12 PST" name="getBookingData" finished-at="2020-11-07T09:23:15 PST" duration-ms="2488" status="PASS">
+        <test-method is-config="true" signature="deleteBookingTests()[pri:0, instance:com.myapiproject.testcases.DeleteParticularBookingTest@4152d38d]" started-at="2020-11-07T12:11:13 PST" name="deleteBookingTests" finished-at="2020-11-07T12:11:16 PST" duration-ms="2800" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getBookingData -->
-        <test-method signature="checkHeaderServerInfo()[pri:0, instance:com.myapiproject.testcases.GetSingleBookingRecordXML@b5cc23a]" started-at="2020-11-07T09:23:15 PST" name="checkHeaderServerInfo" finished-at="2020-11-07T09:23:15 PST" duration-ms="6" status="PASS">
+        </test-method> <!-- deleteBookingTests -->
+        <test-method signature="checkGetResposeForDeletedId()[pri:0, instance:com.myapiproject.testcases.DeleteParticularBookingTest@4152d38d]" started-at="2020-11-07T12:11:16 PST" name="checkGetResposeForDeletedId" finished-at="2020-11-07T12:11:17 PST" duration-ms="593" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkHeaderServerInfo -->
-        <test-method signature="checkResponseBody()[pri:0, instance:com.myapiproject.testcases.GetSingleBookingRecordXML@b5cc23a]" started-at="2020-11-07T09:23:15 PST" name="checkResponseBody" finished-at="2020-11-07T09:23:15 PST" duration-ms="124" status="PASS">
+        </test-method> <!-- checkGetResposeForDeletedId -->
+        <test-method signature="checkIdListForDeletedId()[pri:0, instance:com.myapiproject.testcases.DeleteParticularBookingTest@4152d38d]" started-at="2020-11-07T12:11:17 PST" name="checkIdListForDeletedId" finished-at="2020-11-07T12:11:17 PST" duration-ms="628" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkResponseBody -->
-        <test-method signature="checkStatusCode()[pri:0, instance:com.myapiproject.testcases.GetSingleBookingRecordXML@b5cc23a]" started-at="2020-11-07T09:23:15 PST" name="checkStatusCode" finished-at="2020-11-07T09:23:15 PST" duration-ms="2" status="PASS">
+        </test-method> <!-- checkIdListForDeletedId -->
+        <test-method signature="checkStatusCode()[pri:0, instance:com.myapiproject.testcases.DeleteParticularBookingTest@4152d38d]" started-at="2020-11-07T12:11:17 PST" name="checkStatusCode" finished-at="2020-11-07T12:11:17 PST" duration-ms="2" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [201] but found [405]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [201] but found [405]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:839)
+at org.testng.Assert.assertEquals(Assert.java:849)
+at com.myapiproject.testcases.DeleteParticularBookingTest.checkStatusCode(DeleteParticularBookingTest.java:40)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkStatusCode -->
-        <test-method signature="checkingResponseTime()[pri:0, instance:com.myapiproject.testcases.GetSingleBookingRecordXML@b5cc23a]" started-at="2020-11-07T09:23:15 PST" name="checkingResponseTime" finished-at="2020-11-07T09:23:15 PST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkingResponseTime -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.myapiproject.testcases.GetSingleBookingRecordXML@b5cc23a]" started-at="2020-11-07T09:23:15 PST" name="tearDown" finished-at="2020-11-07T09:23:15 PST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.myapiproject.testcases.GetSingleBookingRecordXML -->
+      </class> <!-- com.myapiproject.testcases.DeleteParticularBookingTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
