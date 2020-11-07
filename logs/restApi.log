@@ -155,3 +155,36 @@ Response time = 1525
 ************** Checking Response Time  **************
 Response time = 1417
 ************** Finished GetAllBookingIds Tests **************
+************** Checking Response Time  **************
+************** Checking Response Time  **************
+************** Checking Response Time  **************
+************** Checking Response Time  **************
+Response time = 537
+************** Checking Response Time  **************
+Response time = 556
+************** Checking Response Time  **************
+Response time = 508
+************* Started GetSingleBookingRecord Tests **************
+we've created a working booking for this test
+exctracting id from newly created booking
+sending our get request
+************** Checking Headers  **************
+************** Checking Status Code  **************
+************** Checking Response Time  **************
+Response time = 448
+************** Finished GetAllBookingIds Tests **************
+************* Started GetSingleBookingRecord Tests **************
+we've created a working booking for this test
+exctracting id from newly created booking
+sending our get request
+************** Checking Status Code  **************
+************** Finished GetAllBookingIds Tests **************
+************* Started GetSingleBookingRecord Tests **************
+we've created a working booking for this test
+exctracting id from newly created booking
+sending our get request
+************** Checking Headers  **************
+************** Checking Status Code  **************
+************** Checking Response Time  **************
+Response time = 456
+************** Finished GetAllBookingIds Tests **************

@@ -12,7 +12,7 @@ import com.myapiproject.utilities.RandomBuldingData;
 import io.restassured.http.Method;
 import io.restassured.response.Response;
 
-public class GetSingleBookingRecord extends TestBase {
+public class GetSingleBookingRecordJSON extends TestBase {
 
 	Response response;
 	SoftAssert softAssert;

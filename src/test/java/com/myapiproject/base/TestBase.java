@@ -5,7 +5,6 @@ import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.json.JSONObject;
 import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeMethod;
 
 import com.myapiproject.utilities.RandomBuldingData;
 
@@ -17,7 +16,7 @@ import io.restassured.specification.RequestSpecification;
 
 public class TestBase {
 	
-	protected static RequestSpecification httpRequest;
+	protected static RequestSpecification httpRequest  = RestAssured.given();
 	protected RequestSpecification uri;
 	protected Response response;
 	
