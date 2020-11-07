@@ -7,6 +7,7 @@ import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
 import com.myapiproject.base.*;
+import com.myapiproject.utilities.RandomBuldingData;
 
 import io.restassured.http.Method;
 import io.restassured.response.Response;
@@ -48,13 +49,13 @@ public class GetSingleBookingRecord extends TestBase {
 	public void checkResponseBody() {
 		softAssert = new SoftAssert();
 		String actualFirstname = response.jsonPath().getString("firstname");
-		softAssert.assertEquals(actualFirstname, "Alexandru");
+		softAssert.assertEquals(actualFirstname, randomFirstName);
 
 		String actualLastname = response.jsonPath().getString("lastname");
-		softAssert.assertEquals(actualLastname, "Tudosan");
+		softAssert.assertEquals(actualLastname, randomLastName);
 
 		int totalPrice = response.jsonPath().getInt("totalprice");
-		softAssert.assertEquals(totalPrice, 199);
+		softAssert.assertEquals(totalPrice, randomFinalPrice);
 
 		boolean depositPaid = response.jsonPath().getBoolean("depositpaid");
 		softAssert.assertTrue(depositPaid);

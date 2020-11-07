@@ -7,6 +7,8 @@ import org.json.JSONObject;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 
+import com.myapiproject.utilities.RandomBuldingData;
+
 import io.restassured.RestAssured;
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.http.ContentType;
@@ -18,6 +20,10 @@ public class TestBase {
 	protected static RequestSpecification httpRequest;
 	protected RequestSpecification uri;
 	protected Response response;
+	
+	protected String randomFirstName = RandomBuldingData.firstname();
+	protected String randomLastName = RandomBuldingData.lastname();
+	protected int randomFinalPrice = RandomBuldingData.totalprice();
 	
 	public Logger logger;
 	
@@ -40,9 +46,9 @@ public class TestBase {
 	
 	protected Response createBooking() {
 		JSONObject body = new JSONObject();
-		body.put("firstname", "Alexandru");
-		body.put("lastname", "Tudosan");
-		body.put("totalprice", 199);
+		body.put("firstname", randomFirstName);
+		body.put("lastname", randomLastName);
+		body.put("totalprice", randomFinalPrice);
 		body.put("depositpaid", true);
 
 		

@@ -9,6 +9,7 @@
           <include name="checkResponseBody"/>
           <include name="setUp"/>
           <include name="getBookingData"/>
+          <include name="tearDown"/>
         </methods>
       </class> <!-- com.myapiproject.testcases.GetSingleBookingRecord -->
     </classes>
