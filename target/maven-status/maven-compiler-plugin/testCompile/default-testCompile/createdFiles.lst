@@ -1,0 +1,7 @@
+com\myapiproject\testcases\GetSingleBookingRecordJSON.class
+com\myapiproject\testcases\UpdateBookingRecordTest.class
+com\myapiproject\testcases\DeleteParticularBookingTest.class
+com\myapiproject\testcases\GetSingleBookingRecordXML.class
+com\myapiproject\base\TestBase.class
+com\myapiproject\utilities\RandomBuldingData.class
+com\myapiproject\testcases\GetAllBookingIdsTests.class

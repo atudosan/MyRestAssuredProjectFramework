@@ -1,37 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-11-07T15:27:39 PST" name="Default suite" finished-at="2020-11-07T15:27:43 PST" duration-ms="4322">
+  <suite started-at="2020-11-09T13:20:19 PST" name="Default suite" finished-at="2020-11-09T13:20:22 PST" duration-ms="2451">
     <groups>
     </groups>
-    <test started-at="2020-11-07T15:27:39 PST" name="Default test" finished-at="2020-11-07T15:27:43 PST" duration-ms="4322">
-      <class name="com.myapiproject.testcases.DeleteParticularBookingTest">
-        <test-method is-config="true" signature="logSetUp()[pri:0, instance:com.myapiproject.testcases.DeleteParticularBookingTest@7555b920]" started-at="2020-11-07T15:27:39 PST" name="logSetUp" finished-at="2020-11-07T15:27:39 PST" duration-ms="51" status="PASS">
+    <test started-at="2020-11-09T13:20:19 PST" name="Default test" finished-at="2020-11-09T13:20:22 PST" duration-ms="2451">
+      <class name="com.myapiproject.testcases.CreateBookingUsingPOJO">
+        <test-method is-config="true" signature="logSetUp()[pri:0, instance:com.myapiproject.testcases.CreateBookingUsingPOJO@4152d38d]" started-at="2020-11-09T13:20:19 PST" name="logSetUp" finished-at="2020-11-09T13:20:19 PST" duration-ms="39" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logSetUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.myapiproject.testcases.DeleteParticularBookingTest@7555b920]" started-at="2020-11-07T15:27:39 PST" name="setUp" finished-at="2020-11-07T15:27:39 PST" duration-ms="139" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.myapiproject.testcases.CreateBookingUsingPOJO@4152d38d]" started-at="2020-11-09T13:20:19 PST" name="setUp" finished-at="2020-11-09T13:20:19 PST" duration-ms="109" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="deleteBookingTests()[pri:0, instance:com.myapiproject.testcases.DeleteParticularBookingTest@7555b920]" started-at="2020-11-07T15:27:39 PST" name="deleteBookingTests" finished-at="2020-11-07T15:27:42 PST" duration-ms="2964" status="PASS">
+        <test-method is-config="true" signature="createBookingUsingPOJO()[pri:0, instance:com.myapiproject.testcases.CreateBookingUsingPOJO@4152d38d]" started-at="2020-11-09T13:20:19 PST" name="createBookingUsingPOJO" finished-at="2020-11-09T13:20:21 PST" duration-ms="1657" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- deleteBookingTests -->
-        <test-method signature="checkGetResposeForDeletedId()[pri:0, instance:com.myapiproject.testcases.DeleteParticularBookingTest@7555b920]" started-at="2020-11-07T15:27:42 PST" name="checkGetResposeForDeletedId" finished-at="2020-11-07T15:27:43 PST" duration-ms="590" status="PASS">
+        </test-method> <!-- createBookingUsingPOJO -->
+        <test-method signature="checkResponseBody()[pri:0, instance:com.myapiproject.testcases.CreateBookingUsingPOJO@4152d38d]" started-at="2020-11-09T13:20:21 PST" name="checkResponseBody" finished-at="2020-11-09T13:20:22 PST" duration-ms="612" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkGetResposeForDeletedId -->
-        <test-method signature="checkIdListForDeletedId()[pri:0, instance:com.myapiproject.testcases.DeleteParticularBookingTest@7555b920]" started-at="2020-11-07T15:27:43 PST" name="checkIdListForDeletedId" finished-at="2020-11-07T15:27:43 PST" duration-ms="497" status="PASS">
+        </test-method> <!-- checkResponseBody -->
+        <test-method signature="ckeckingStatusCode()[pri:0, instance:com.myapiproject.testcases.CreateBookingUsingPOJO@4152d38d]" started-at="2020-11-09T13:20:22 PST" name="ckeckingStatusCode" finished-at="2020-11-09T13:20:22 PST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkIdListForDeletedId -->
-        <test-method signature="checkStatusCode()[pri:0, instance:com.myapiproject.testcases.DeleteParticularBookingTest@7555b920]" started-at="2020-11-07T15:27:43 PST" name="checkStatusCode" finished-at="2020-11-07T15:27:43 PST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkStatusCode -->
-      </class> <!-- com.myapiproject.testcases.DeleteParticularBookingTest -->
+        </test-method> <!-- ckeckingStatusCode -->
+      </class> <!-- com.myapiproject.testcases.CreateBookingUsingPOJO -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

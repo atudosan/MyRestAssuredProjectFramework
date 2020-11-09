@@ -44,6 +44,8 @@ public class TestBase {
 	
 	
 	protected Response createBooking() {
+		logger.info("Creating working Booking object");
+		
 		JSONObject body = new JSONObject();
 		body.put("firstname", randomFirstName);
 		body.put("lastname", randomLastName);
@@ -61,10 +63,11 @@ public class TestBase {
 		// Get response of Post request
 		Response response = RestAssured.given(uri).contentType(ContentType.JSON).body(body.toString())
 				.post("/booking");
+		logger.info("Working Booking Object Created");
 		return response;
+		
 	}
-
 	
-	
+		
 
 }

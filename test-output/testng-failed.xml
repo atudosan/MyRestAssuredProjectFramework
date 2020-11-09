@@ -3,14 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.myapiproject.testcases.DeleteParticularBookingTest">
+      <class name="com.myapiproject.testcases.CreateBookingUsingPOJO">
         <methods>
-          <include name="checkStatusCode"/>
+          <include name="createBookingUsingPOJO"/>
+          <include name="checkResponseBody"/>
           <include name="logSetUp"/>
-          <include name="deleteBookingTests"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- com.myapiproject.testcases.DeleteParticularBookingTest -->
+      </class> <!-- com.myapiproject.testcases.CreateBookingUsingPOJO -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
