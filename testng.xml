@@ -8,7 +8,7 @@
       <class name="com.myapiproject.testcases.GetSingleBookingRecordJSON"/>
       <class name="com.myapiproject.testcases.GetSingleBookingRecordXML"/>
       <class name="com.myapiproject.testcases.UpdateBookingRecordTest"/>
-      <class name="com.myapiproject.testcases.CreateBookingUsingPOJO"/>
+      <class name="com.myapiproject.testcases.CreateAndValidateBookingUsingPOJO"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

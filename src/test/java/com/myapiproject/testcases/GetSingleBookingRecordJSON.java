@@ -6,8 +6,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
-import com.myapiproject.base.*;
-import com.myapiproject.utilities.RandomBuldingData;
+import com.myapiproject.base.TestBase;
 
 import io.restassured.http.Method;
 import io.restassured.response.Response;

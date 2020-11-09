@@ -18,6 +18,10 @@ public class Booking {
 		this.bookingdates = bookingdates;
 		this.additionalneeds = additionalneeds;
 	}
+	
+	public Booking() {
+		}
+	
 	@Override
 	public String toString() {
 		return "Booking [firstname=" + firstname + ", lastname=" + lastname + ", totalprice=" + totalprice

@@ -8,6 +8,9 @@ public class Bookingdates {
 		this.checkin = checkin;
 		this.checkout = checkout;
 	}
+	
+	public Bookingdates() {
+		}
 
 	@Override
 	public String toString() {
