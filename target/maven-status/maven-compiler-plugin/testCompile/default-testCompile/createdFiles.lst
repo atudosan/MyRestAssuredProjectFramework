@@ -1,7 +1,11 @@
 com\myapiproject\testcases\GetSingleBookingRecordJSON.class
 com\myapiproject\testcases\UpdateBookingRecordTest.class
+com\myapiproject\pojo\Bookingid.class
 com\myapiproject\testcases\DeleteParticularBookingTest.class
 com\myapiproject\testcases\GetSingleBookingRecordXML.class
+com\myapiproject\pojo\Bookingdates.class
 com\myapiproject\base\TestBase.class
 com\myapiproject\utilities\RandomBuldingData.class
 com\myapiproject\testcases\GetAllBookingIdsTests.class
+com\myapiproject\testcases\CreateAndValidateBookingUsingPOJO.class
+com\myapiproject\pojo\Booking.class
